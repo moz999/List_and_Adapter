@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/select_sheet_linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text02TitleDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text02_title_detail"
+            android:textColor="#333333"/>
+
+        <ListView
+            android:id="@+id/listView02Product"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/button02AllDeleter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/button02_all_delete"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

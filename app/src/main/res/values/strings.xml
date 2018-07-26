@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">List_and_Adapter</string>
+
+    <!--タイトル-->
+    <string name="name_selects_sheet_product">品名一覧画面</string>
+    <string name="name_selects_sheet_listview">ListView表示画面</string>
+    <string name="name_selects_sheet_table">TableLayout表示画面</string>
+
+    <!--ここからActivity_main 01関連-->
+        <string name="text01_product">品名</string>
+        <string name="text01_made_in">産地</string>
+        <string name="text01_number">個数</string>
+        <string name="text01_price">単価</string>
+        <string name="text01_kome">*</string>
+        <string name="text01_hint_text">全角・半角12文字以内</string>
+        <string name="text01_hint_number">半角数字</string>
+        <string name="button01_register">登録</string>
+        <string name="button01_show">表示</string>
+
+        <!--選択用RadioButton-->
+        <string name="radio01_product">品名一覧</string>
+        <string name="radio01_listview">ListView表示</string>
+        <string name="radio01_tablelayout">TableLayout表示</string>
+    <!--ここまで-->
+
+    <!--ここからSelect_sheet_product 02関連-->
+        <string name="text02_title_detail">ListViewを表示する為にArrayAdapterを使ってシンプルに品名だけをリスト表示します</string>
+        <string name="text02_title">品名一覧</string>
+        <string name="button02_all_delete">全削除</string>
+
+        <!-- row_sheet_listview 05 -->
+        <string name="text05_title_made_in">産地</string>
+        <string name="text05_title_number">個数</string>
+        <string name="text05_title_price">単価：</string>
+    <!--ここまで-->
+
+    <!-- select_sheet_listview_03 -->
+    <string name="text03_title_detail">BaseAdapterを使いListViewをカスタムリスト表示します</string>
+
+    <!-- select_sheet_table 04 -->
+    <string name="text04_title_detail">SearchViewを使って品名を検索し、DBから取得したデータを加えていく表示の方法</string>
+    <string name="text04_hint_text">品名を入力してください</string>
+    <string name="button04_search">検索</string>
+
+</resources>
+
